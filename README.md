@@ -1,44 +1,22 @@
-<p align="center">
-<a href="https://bayudwiyansatria.github.io/Development-And-Operations/">
-<img src="https://cdn.bayudwiyansatria.com/assets/logo-full.png" width="100%" />
-</a>
-<br>
-</p>
-<p align="center">
-<a href="#">
-<img src="https://img.shields.io/badge/%20Platforms-Windows%20/%20Linux-blue.svg?style=flat-square" alt="Platforms" />
-</a>
-<a href="https://bayudwiyansatria.github.io/Development-And-Operations/blob/master/LICENSE">
-<img src="https://img.shields.io/badge/%20Licence-MIT-green.svg?style=flat-square" alt="license" />
-</a>
-</p>
-<p align="center">
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/CODE_OF_CONDUCT.md">
-<img src="https://img.shields.io/badge/Community-Code%20of%20Conduct-orange.svg?style=flat-squre" alt="Code of Conduct" />
-</a>
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/SUPPORT.md">
-<img src="https://img.shields.io/badge/Community-Support-red.svg?style=flat-square" alt="Support" />
-</a>
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/CONTRIBUTING.md">
-<img src="https://img.shields.io/badge/%20Community-Contribution-yellow.svg?style=flat-square" alt="Contribution" />
-</a>
-</p>
+![Platforms](https://img.shields.io/badge/%20Platforms-Windows%20/%20Linux-blue.svg?style=flat-square")
+[![License](https://img.shields.io/badge/%20Licence-MIT-green.svg?style=flat-square)](LICENSE.md)
+[![Code Of Conduct](https://img.shields.io/badge/Community-Code%20of%20Conduct-orange.svg?style=flat-squre)](CODE_OF_CONDUCT.md)
+[![Support](https://img.shields.io/badge/Community-Support-red.svg?style=flat-square)](SUPPORT.md)
+[![Contributing](https://img.shields.io/badge/%20Community-Contribution-yellow.svg?style=flat-square)](CONTRIBUTING.md)
+
 <hr>
 
-# Development and Operation
+# Terraform Hetzner Cloud Demo
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
-![Github Actions](https://github.com/bayudwiyansatria/Development-And-Operations/workflows/Github%20Action/badge.svg)
+Provisioning Infrastructure on Hetzner Cloud
 
-Global Template Repository for Development and Operations Of Your Projects.
-
-| Key|Values|
-| ------| ----- |
-| Author| Bayu Dwiyan Satria |
-| Email | bayudwiyansatria@gmail.com |
-| Phone | +62-823-9602-9583 |
-| Website | [https://bayudwiyansatria.com](https://bayudwiyansatria.com) |
+| Key| Values                                                               |
+| ------|----------------------------------------------------------------------|
+| Author| Bayu Dwiyan Satria                                                   |
+| Email | bayudwiyansatria@gmail.com                                           |
+| Website | [https://www.bayudwiyansatria.com](https://www.bayudwiyansatria.com) |
 
 ## Table of Contents
 
@@ -75,16 +53,17 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be clone this repository.
 
 ```shell
-git clone git@github.com:bayudwiyansatria/Development-And-Operations.git
+git clone git@github.com:bayudwiyansatria/terraform-hcloud.git
 ```
-
-## Development
-
--*Release 1.0* : **2019, Nov**.
 
 ## Usage
 
-Reference and programming instructional materials.
+```shell
+$ terraform init
+$ terraform plan
+$ terraform apply
+$ terraform destroy
+```
 
 ## Contributing
 
@@ -102,20 +81,20 @@ Looking to contribute to our code but need some help? There's a few ways to get 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bayudwiyansatria/Development-And-Operations/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see
+the [tags on this repository](https://github.com/bayudwiyansatria/Development-And-Operations/tags).
 
 ## Authors
 
-* **[Bayu Dwiyan Satria](https://github.com/bayudwiyansatria)** - *Initial work*
+- [Bayu Dwiyan Satria](https://github.com/bayudwiyansatria)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-<p> Copyright &copy; 2017 - 2019 Public Use. All Rights Reserved.
+<p> Copyright &copy; 2021. All Rights Reserved.
 
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
 * Inspiration
-* etc
